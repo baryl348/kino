@@ -163,21 +163,26 @@
   }
   .content__title {
     height: 14vw;
+    width: 100%;
   }
   .header {
     height: 10%;
   }
   .header-1 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .header-2 {
-    font-size: 16px;
+    font-size: 18px;
   }
   .content__title h2 {
-    font-size: 13.5px;
+    font-size: 16px;
   }
   .content__wrap {
-    margin-top: 8%;
+    margin-top: 6.5%;
+    width: 90vw;
+  }
+  .url {
+    margin-right: 2%;
   }
   .url:nth-child(1) img {
     width: calc(30px + (40 - 30) * ((100vw - 320px) / (580 - 320)));

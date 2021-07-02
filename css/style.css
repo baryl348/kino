@@ -38,6 +38,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-size: 0.83vw;
 }
 
 ul[class],
@@ -74,11 +75,13 @@ select {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  height: 100vh;
 }
 
 .header {
   width: 100%;
-  height: 100px;
+  height: 9.5vh;
+  /* height: 6.25rem; */
   background: #f50005;
   color: #f2e2cd;
   text-align: center;
@@ -88,15 +91,15 @@ select {
 }
 
 .header-1 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 900;
-  letter-spacing: 0.76px;
+  letter-spacing: 0.0475rem;
 }
 
 .header-2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   font-weight: 900;
-  letter-spacing: 0.76px;
+  letter-spacing: 0.0475rem;
 }
 
 .banner {
@@ -104,17 +107,18 @@ select {
   background: url("./img/fon.png") no-repeat center;
   background-size: auto 100%;
   width: 100%;
-  height: 420px;
+  /* height: 26.25rem; */
+  height: 45.5vh;
   background-position: center;
 }
 
 .banner__age {
   position: absolute;
-  top: 30px;
-  right: 100px;
+  top: 1.875rem;
+  right: 6.25rem;
   color: white;
-  font-size: 32px;
-  letter-spacing: 1px;
+  font-size: 2rem;
+  letter-spacing: 0.0625rem;
   font-weight: bold;
 }
 
@@ -125,12 +129,12 @@ select {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  right: 250px;
+  right: 15.625rem;
 }
 
 .banner__heading img {
-  max-width: 550px;
-  max-height: 160px;
+  max-width: 34.375rem;
+  max-height: 10rem;
 }
 
 .content {
@@ -144,15 +148,15 @@ select {
   align-items: center;
   text-align: center;
   justify-content: center;
-  height: 60px;
+  height: 3.75rem;
   background: #f50005;
-  width: 100%;
+  width: 100vw;
 }
 
 .content__title h2 {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #f2e2cd;
-  letter-spacing: 0.84px;
+  letter-spacing: 0.0525rem;
   font-weight: 900;
   line-height: 1.2;
 }
@@ -161,34 +165,34 @@ select {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 35px;
-  max-width: 1610px;
+  margin-top: 2.1875rem;
+  max-width: 100.625rem;
 }
 
 .content__wrap-item {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 7.5px;
-  border: solid 0.8px #cdcdcd;
+  border-radius: 0.46875rem;
+  border: solid 0.05rem #cdcdcd;
   background-color: #ffffff;
-  width: 285px;
-  height: 65px;
-  margin-bottom: 25px;
+  width: 17.8125rem;
+  height: 4.0625rem;
+  margin-bottom: 1.5625rem;
   cursor: pointer;
-  margin-right: 25px;
+  margin-right: 1.5625rem;
 }
 
 .footer {
-  margin-top: 25px;
-  padding-bottom: 18px;
+  margin-top: 1.5625rem;
+  padding-bottom: 1.125rem;
 }
 
 .footer h5 {
-  margin-left: 98px;
+  margin-left: 6.125rem;
   color: #f2e2cd;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .br {

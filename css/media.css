@@ -163,7 +163,6 @@
   }
   .content__title {
     height: 14vw;
-    width: 100% !important;
   }
   .header {
     height: 10%;
@@ -176,6 +175,7 @@
   }
   .content__title h2 {
     font-size: 15.5px;
+    width: 100% !important;
   }
   .content__wrap {
     margin-top: 6.5%;

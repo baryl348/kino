@@ -154,7 +154,7 @@
     height: 28vh;
   }
   .content__wrap-item {
-    width: calc(86px + (150 - 90) * ((100vw - 320px) / (580 - 320)));
+    width: calc(80px + (150 - 90) * ((100vw - 320px) / (580 - 320)));
     height: calc(30px + (43 - 30) * ((100vw - 320px) / (580 - 320)));
     margin-bottom: auto;
   }
@@ -182,7 +182,7 @@
     width: 90vw;
   }
   .url {
-    margin-right: 2.2%;
+    margin-right: 3%;
   }
   .url:nth-child(1) img {
     width: calc(30px + (40 - 30) * ((100vw - 320px) / (580 - 320)));
